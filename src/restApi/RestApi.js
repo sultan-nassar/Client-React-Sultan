@@ -2,10 +2,10 @@ import axios from 'axios';
 
 const apiUrl = "http://localhost:3000/api";
 
-// Fetch data from /api/items
+// Fetch data from /api/drivers
 export const getData = async () => {
   try {
-    const { data } = await axios.get(`${apiUrl}/items`);
+    const { data } = await axios.get(`${apiUrl}/drivers`);
     return data;
   } catch (error) {
     return Promise.reject(error.message);
