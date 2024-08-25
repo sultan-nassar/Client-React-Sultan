@@ -7,18 +7,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. install git on your computer from the link https://git-scm.com/downloads <br>
 2.  Clone the repository to your local machine: <br>
 <p> Open a new VS code in a new folder <br>  </p> 
-<p> Open the terminal <br>  </p> 
-   Bash
-   <br>
-   git clone -b master https://github.com/sultan-nassar/CardReactApp.git <br>
- <strong>split two terminal</strong>:<br>
- <br>
-<p>
-<strong> at the second terminal</strong> you have to navigate to the project directory by writing: <br>
- Cd Client-React-Sultan <br>
-  
- npm i <br>
- npm start <br>  
+
+## for frontend side
+Open a new VS code (for frontend side)
+at the welcome page, click on Clone Git repository.
+
+put this on the URL of Git https://github.com/sultan-nassar/Client-React-Sultan.git 
+
+pick a location folder and then press ok.
+
+at the terminal you have to navigate to the directory:
+Cd Client-React-Sultan
+
+npm i
+npm start 
    
 
 
