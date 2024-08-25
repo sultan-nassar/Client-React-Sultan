@@ -25,7 +25,7 @@ export default function DriverTable() {
   }, []);
 
        
-    // Handler to update search term and filter the Drivers
+    // Handler to update search term and filter the Drivers.
     // the some method check workareas name in the array one by one and return true if the name exist
     // so if the name exist we can see it in the filtered names.
 
