@@ -2,17 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+<p>
+1. install git on your computer from the link https://git-scm.com/downloads <br>
+2.  Clone the repository to your local machine: <br>
+<p> Open a new VS code in a new folder <br>  </p> 
+<p> Open the terminal <br>  </p> 
+   Bash
+   <br>
+   git clone -b master https://github.com/sultan-nassar/CardReactApp.git <br>
+ <strong>split two terminal</strong>:<br>
+ <br>
+<p>
+<strong> at the second terminal</strong> you have to navigate to the project directory by writing: <br>
+ Cd Client-React-Sultan <br>
+  
+ npm i <br>
+ npm start <br>  
+   
 
 
 # Filter Method
