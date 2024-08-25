@@ -25,6 +25,7 @@ export default function DriverTable() {
   }, []);
 
     //####################  FILTER METHOD   ##############
+    //I HAVE CHOSE THE CLIENT FILTER, ACCORDING TO:
     //For Small, Simple Datasets: Client-side filtering might be more appropriate, especially if you want a quick and responsive user experience without making multiple server requests. 
     //For Large, Complex, or Sensitive Datasets: Backend filtering is generally better, as it reduces data transfer, handles complex queries more efficiently, and keeps sensitive data secure.
 
