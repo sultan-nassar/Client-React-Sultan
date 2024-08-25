@@ -15,7 +15,8 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-## Filter Method
+# Filter Method
+# I HAVE CHOSE THE CLIENT FILTER, ACCORDING TO ADVANTAGES AND DISADVANTAGES BELOW:
 
 ### Client-Side Filtering:
 Advantages:
@@ -44,4 +45,3 @@ Dependency on Internet Connection: Filtering requires an active internet connect
 For Small, Simple Datasets: Client-side filtering might be more appropriate, especially if you want a quick and responsive user experience without making multiple server requests.
 For Large, Complex, or Sensitive Datasets: Backend filtering is generally better, as it reduces data transfer, handles complex queries more efficiently, and keeps sensitive data secure.
 
-# FOR THAT REASONS I HAVE CHOSE THE CLIENT FILTER.
