@@ -19,8 +19,8 @@ pick a location folder and then press ok.
 at the terminal you have to navigate to the directory:
 Cd Client-React-Sultan
 
-npm i
-npm start 
+<br> npm i
+<br> npm start 
    
 
 
