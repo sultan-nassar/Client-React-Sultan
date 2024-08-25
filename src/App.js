@@ -1,10 +1,10 @@
 import './App.css';
-import DriverTable from './Component/DriverTable';
+import DriverTableOption from './Component/DriverTableOption';
 
 function App() {
   return (
     <div className="App">
-      <DriverTable/>
+      <DriverTableOption/>
     </div>
   );
 }
