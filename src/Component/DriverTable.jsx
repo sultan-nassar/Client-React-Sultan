@@ -24,11 +24,12 @@ export default function DriverTable() {
     fetchDrivers();
   }, []);
 
-       
-    // Handler to update search term and filter the Drivers.
-    // the some method check workareas name in the array one by one and return true if the name exist
-    // so if the name exist we can see it in the filtered names.
+    //####################  FILTER METHOD   ##############
+    //For Small, Simple Datasets: Client-side filtering might be more appropriate, especially if you want a quick and responsive user experience without making multiple server requests. 
+    //For Large, Complex, or Sensitive Datasets: Backend filtering is generally better, as it reduces data transfer, handles complex queries more efficiently, and keeps sensitive data secure.
 
+
+    // Handler to update search term and filter the Drivers.
     const handleSearch = (e) => {
       const query = e.target.value.toLowerCase();
       setSearchTerm(query);
@@ -38,7 +39,8 @@ export default function DriverTable() {
       );
       setFilteredDrivers(filtered);
     };
-
+    // the some method check workareas name in the array one by one and return true if the name exist
+    // so if the name exist we can see it in the filtered names.
 
     return (
       <div >
